@@ -1,0 +1,7 @@
+:- dynamic book/5.
+
+book(2, "3d", "sfas", "43ds", 4857).
+book(1, "3d", "sfas", "43ds", 4857).
+book(3, "asd", "asdwsd", "asdasdd", 213).
+book(4, "3sadasd", "2323", "dasdaws", 213214).
+
