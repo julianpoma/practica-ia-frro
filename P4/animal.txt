@@ -1,0 +1,6 @@
+alimentacion(vaca, pasto).
+alimentacion(vaca, yuyo).
+alimentacion(perro, carne).
+alimentacion(perro, pollo).
+
+bebida(vaca, 20).

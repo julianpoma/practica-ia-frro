@@ -1,0 +1,5 @@
+:- dynamic personas/2.
+
+personas(1, "Julian").
+personas(2, "Mario").
+
