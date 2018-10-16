@@ -1,0 +1,10 @@
+osocial(unr,plan1,ibuprofeno,100).
+osocial(unr,plan1,diclofenac,100).
+osocial(unr,plan1,bayaspirina,100).
+osocial(unr,plan2,amoxicilina,100).
+osocial(unr,plan2,jarabeDePalo,70).
+osocial(unr,plan2,keta,100).
+osocial(iaposocial,plan2,ibuprofeno,100).
+osocial(iaposocial,plan2,keta,50).
+osocial(iaposocial,plan2,jarabe,100).
+osocial(iaposocial,plan2,actron,100).

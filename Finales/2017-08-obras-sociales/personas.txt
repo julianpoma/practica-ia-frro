@@ -1,0 +1,9 @@
+persona(38135952,ligia,10,unr,plan1).
+persona(38135952,ligia,10,iaposocial,plan2).
+
+persona(38135953,patricia,70,unr,plan1).
+persona(38135953,patricia,70,iaposocial,plan3).
+
+persona(38135954,juan,80,iaposocial,plan2).
+
+persona(38135955,franco,50,unr,plan1).

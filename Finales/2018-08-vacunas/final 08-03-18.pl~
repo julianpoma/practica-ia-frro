@@ -29,12 +29,13 @@ opc(1):-
     determinar_vacunas(Edad, VacAplicadas, VacFaltantes),
     writeln(VacFaltantes).
 
-determinar_vacunas(Edad, VA, [VF,T]):-
+determinar_vacunas(Edad, VA, [VF|T]):-
     retract(vacunas_edad(Desde, Hasta, Vacunas)),
     Desde=<Edad,
     Hasta>=Edad,
     comparar(Vacunas, VA, VF).
     determinar_vacunas(Edad, VA, T).
+
 determinar_vacunas(_,_,[]).
 
 %Instancio la lista K de vacunas por aplicar, cuando termino de recorrer

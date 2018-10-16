@@ -3,7 +3,7 @@
 :- dynamic vacuna/2.
 
 nino('Mauri',22,['Antisarampion','Antitetanica']).
-nino('Julian', 12, ['Antisarampion']).
+nino('Julian', 14, []).
 
 vacunas_edad(12,15,['Antisarampion']).
 vacunas_edad(7, 30,['Hepatitis']).

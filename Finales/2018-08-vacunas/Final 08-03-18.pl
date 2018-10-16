@@ -33,14 +33,13 @@ determinar_vacunas(Edad, VA, [VF|T]):-
     retract(vacunas_edad(Desde, Hasta, Vacunas)),
     Desde=<Edad,
     Hasta>=Edad,
-    comparar(Vacunas, VA, VF).
+    comparar(Vacunas, VA, VF),
     determinar_vacunas(Edad, VA, T).
 
 determinar_vacunas(_,_,[]).
 
 %Instancio la lista K de vacunas por aplicar, cuando termino de recorrer
 %la lista de vacunas de la edad
-
 comparar([], _, []).
 
 %la vacuna a aplicar, ya fue aplicada? Si es asi, no hago nada y
