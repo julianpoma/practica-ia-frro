@@ -23,10 +23,10 @@ apartado(1):-
     mostrar(Caract, Lista), write(Lista).
 
 mostrar(Caract, [Cod|T]):-
-    vehiculo(Cod, ListaCaract),
-    pertenece(Caract, ListaCaract),
     retract(vehiculo(Cod, ListaCaract)),
+    pertenece(Caract, ListaCaract),
     mostrar(Caract, T).
+
 mostrar(_, []).
 
 pertenece(X,[X|_]).
