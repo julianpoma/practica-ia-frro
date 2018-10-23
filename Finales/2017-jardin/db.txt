@@ -1,0 +1,10 @@
+jardin(1, ['verde','azul', 'roja']).
+jardin(2, ['azul', 'violeta', 'amarilla']).
+jardin(3, ['verde', 'azul', 'roja', 'naranja']).
+
+salas(1, 'verde', [1, 2, 3, 4]).
+salas(1, 'azul', [71, 82]).
+salas(1, 'roja', [36]).
+
+salas(2, 'azul', [5, 6, 7, 9]).
+salas(3, 'roja', [11, 10, 12, 13, 14, 15]).
