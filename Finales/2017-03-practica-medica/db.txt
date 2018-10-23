@@ -1,0 +1,13 @@
+cliente(1, julian, swiss).
+cliente(2, ana, osde).
+cliente(3, mauri, unr).
+
+practica(1, juan, 1-1-1999, 1, 1).
+practica(2, milei, 1-1-1999, 1, 0).
+practica(3, espert, 1-1-1999, 1, 0).
+practica(4, milei, 1-1-1999, 1, 0).
+practica(5, juan, 1-1-1999, 1, 1).
+
+practica(6, espert, 1-1-1999, 2, 1).
+practica(7, espert, 1-1-1999, 2, 1).
+practica(8, espert, 1-1-1999, 2, 1).
