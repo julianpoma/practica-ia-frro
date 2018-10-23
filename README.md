@@ -40,7 +40,7 @@ pertenece(X, [X|_]).
 pertenece(X, [_, T]):- pertenece(X, T).
 ```
 
-No pertenece un elemento a una lista
+**No** pertenece un elemento a una lista
 ```pl
 noPertenece(_, []).
 noPertenece(X, [H|T]):- X\=H, noPertenece(X, T).
@@ -55,7 +55,7 @@ Verificar que la L1 este contenida en L2
 ```pl
 contenida([], _). //Cuando L1 sea vacia (la recorri toda), significa que todos los elementos estan incluidos.
 
-contenida([H|T1], L2):-
+contenida([H|T], L2):-
     pertenece(H, L2),
     contenida(T, L2).
 ```
