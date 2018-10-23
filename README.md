@@ -29,7 +29,33 @@ Esto tiene que ser declarado para poder utilizar los predicados y `assert | retr
 
 ## Listas
 Leer una lista
-```
+```pl
 leer([H|T]):- read(H), H\=[], leer(T).
 leer([]). 
+```
+
+Pertenece un elemento a una lista
+```pl
+pertenece(X, [X|_]).
+pertenece(X, [_, T]):- pertenece(X, T).
+```
+
+No pertenece un elemento a una lista
+```pl
+noPertenece(_, []).
+noPertenece(X, [H|T]):- X\=H, noPertenece(X, T).
+```
+
+Una alternativa al no pertenece
+```pl
+not(pertenece(X, Lista)).
+```
+
+Verificar que la L1 este contenida en L2
+```pl
+contenida([], _). //Cuando L1 sea vacia (la recorri toda), significa que todos los elementos estan incluidos.
+
+contenida([H|T1], L2):-
+    pertenece(H, L2),
+    contenida(T, L2).
 ```
