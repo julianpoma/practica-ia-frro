@@ -1,0 +1,32 @@
+﻿/*
+Lista de celulares disponibles para realizar la recomendación
+celular(modelo, [lista_caracteristicas]).
+feature(id, pregunta).
+*/
+
+celular('Samsung S9', [14, 1, 2, 5, 7, 10, 11, 8, 13, 12]).
+celular('Moto G6 Plus', [2, 3, 4, 6, 9, 12, 13]).
+celular('Moto G6 Play', [2, 4, 6, 9, 12, 13]).
+celular('LG Pro V10', [14, 1, 2, 3, 13, 10]).
+celular('Iphone 8/8 Plus', [14, 1, 5, 10, 12]).
+celular('Iphone X', [14, 1, 5, 10, 12, 8]).
+celular('One Plus 6T', [1, 2, 3, 5, 7, 10, 11, 8, 13, 12]).
+celular('One Plus 6', [1, 2, 5, 7, 10, 11, 8, 13, 12]).
+celular('Samsung J2', [2, 3, 4, 6, 9, 11]).
+celular('Huawei P8 Lite', [3, 4, 6, 9, 12, 13]).
+celular('Galaxy Grand Prime', [4, 6, 9, 11, 13]).
+
+feature(14, '¿Tiene un presupuesto mayor a 800 dolares?').
+feature(1, '¿La camara es importante para usted?').
+feature(2, '¿Le interesa una duracion de bateria de mas de un dia?').
+feature(3, '¿Necesita doble sim?').
+feature(4, '¿La garantia local es importante para usted?').
+feature(5, '¿Le interesan los materiales premium?').
+feature(6, '¿Escucha Radio FM?').
+feature(7, '¿Le interesa jugar con el celular?').
+feature(8, '¿Le interesa que sea sumergible?').
+feature(9, 'Suele sacar muchas fotos y descargar música?').
+feature(10, '¿La seguridad es importante para usted?').
+feature(11, '¿Es descuidado con sus telefonos?').
+feature(12, '¿Necesita 4G?').
+feature(13, '¿Utiliza auriculares para escuchar musica?').
